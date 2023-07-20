@@ -1,11 +1,12 @@
 import './App.css';
-import Weather from './component/Weather';
+import Todolist from './component/Todolist';
 
 function App() {
   return (
     <div className='outer'>
       <div className="App">
-        <Weather/>
+      
+        <Todolist/>
       </div>
     </div>
   );
